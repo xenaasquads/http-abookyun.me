@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>HACKED BY XENA SQUADS</title>
+        <style>
+		body{
+                overflow:hidden;
+        </style>
+<style>
+body {
+  -webkit-background-size: cover;
+  background: url(https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?ixlib=rb-0.3.5&s=e395281afc79dcd26159bd27f6413fba&auto=format&fit=crop&w=967&q=80) no-repeat center center fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+.twitter a{
+  text-decoration: none;
+  font-family: Arial, sans-serif  ;
+  font-size: 50px;
+  text-shadow: grey 0px 0px 10px;
+}
+}</style>
+<div class="twinkling">
+  <center><br><br><br>
+    <div class="container">
+      <div class="text" size="10">|Hacked By MR ./Xena_$quad$|</div>
+    </div><br><br><br>
+    <font color="#FFFFFF" size="6"></font><br>
+<br>
+<br><center><font color="#F50808" ><b>./Xena_Squads | </b></font><font color="#F50808"><b>Just You and Me</b></font><font color="#F50808"><b>| Magelang 6etar| </b></font><font color="#F50808"> | Indonesian Code Party | </font><br>
+<br>
+ <center>
+  <span class="white" color="#FF0000">I love you but you love him</span> <br>
+  <center><font class="white" color="#FF0000">the question is</font></center>
+  <marquee width="820" scrollamount="4" scrolldelay="50" style="width: 820px;"> <span style="font-size:13pt;"></span> </marquee> </center></div> 
+  <div id="Greets"> 
+  <span class="glow" style="font-size:11pt;"></span> <br> <marquee width="820" scrollamount="4" scrolldelay="50" style="width: 820px;"> <span  style="font-size:16pt;">
+ KENAPA HARUS DIA ?
+</span> </marquee> </div> 
+</font>
+  <br>
+      <font face="Play">
+          </font>
+<div class="clouds">
+</div>
+<iframe width="0" height="0" src="//www.youtube.com/embed/lt3Dt107bgM?rel=0&autoplay=1&loop=1&playlist=60ItHLz5WEA" frameborder="0" allowfullscreen></iframe>
+ <br>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.3/howler.min.js"></script>
+  <script type="text/javascript"> 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.3/howler.min.js"></script>
+
+
+<script src="//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script>
+<script>class TextScramble {
+  constructor(el) {
+    this.el = el
+    this.chars = '!@#$%^&*()_-=+{}:"|<>?,./;'
+    this.update = this.update.bind(this)
+  }
+  setText(newText) {
+    const oldText = this.el.innerText
+    const length = Math.max(oldText.length, newText.length)
+    const promise = new Promise((resolve) => this.resolve = resolve)
+    this.queue = []
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || ''
+      const to = newText[i] || ''
+      const start = Math.floor(Math.random() * 40)
+      const end = start + Math.floor(Math.random() * 40)
+      this.queue.push({ from, to, start, end })
+    }
+    cancelAnimationFrame(this.frameRequest)
+    this.frame = 0
+    this.update()
+    return promise
+  }
+  update() {
+    let output = ''
+    let complete = 0
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let { from, to, start, end, char } = this.queue[i]
+      if (this.frame >= end) {
+        complete++
+        output += to
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.28) {
+          char = this.randomChar()
+          this.queue[i].char = char
+        }
+        output += `<span class="dud">${char}</span>`
+      } else {
+        output += from
+      }
+    }
+    this.el.innerHTML = output
+    if (complete === this.queue.length) {
+      this.resolve()
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update)
+      this.frame++
+    }
+  }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)]
+  }
+}
+
+const phrases = [
+'|Hacked By ./Xena_$quad$|',
+  '|Indonesian C0de Party|',
+  'You Lose!',
+  'HAHAHAHAHA !',
+  'FVCK',
+  
+
+
+]
+
+const el = document.querySelector('.text')
+const fx = new TextScramble(el)
+
+let counter = 0
+const next = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next, 1500)
+  })
+  counter = (counter + 1) % phrases.length
+}
+
+next()
+
+'use strict';
+
+var app = {
+
+  chars: ['GHI','LOL!','Symlink!','Server Weak','Indonesian!','Stamped','HACKED!','Hahaha!','You Lose!','Idiot System!','Cyber Crime!'],
+
+  init: function () {
+    app.container = document.createElement('div');
+    app.container.className = 'animation-container';
+    document.body.appendChild(app.container);
+    window.setInterval(app.add, 100);
+  },
+
+  add: function () {
+    var element = document.createElement('span');
+    app.container.appendChild(element);
+    app.animate(element);
+  },
+
+  animate: function (element) {
+    var character = app.chars[Math.floor(Math.random() * app.chars.length)];
+    var duration = Math.floor(Math.random() * 15) + 1;
+    var offset = Math.floor(Math.random() * (50 - duration * 2)) + 3;
+    var size = 10 + (15 - duration);
+    element.style.cssText = 'up:'+offset+'vw; font-size:'+size+'px;animation-duration:'+duration+'s';
+    element.innerHTML = character;
+    window.setTimeout(app.remove, duration * 1000, element);
+  },
+
+  remove: function (element) {
+    element.parentNode.removeChild(element);
+  },
+
+};
+
+document.addEventListener('DOMContentLoaded', app.init);
+//# sourceURL=pen.js
+</script>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582PbDUVNc7V%2bdEmysFvSqx6BlH5SjFc7t%2b6qCIaAXx2j9q7mWfv0qze5hMrDbFM0S5IpMEsFLC%2bDszFKBvwH4s2tbeUO%2fDryBnwpMlrLUMJjiCuOZUzn2VisWXupdEEJNEN%2fHk0XdYp%2bQQIy3FEtoQsJP6V6Ki4SWm8bpjnfFp4cORrCdFoXuE%2bjZCKDxn%2bYdbGV7kjOVe%2bMhMJWWSzsDnMr7m0iPqHaDf1OUblkitXzCEracWve%2fJriGIFouxxILAF7KH4yGFNo1ZrDXVtTM%2f%2f5K1iAQWwQh1JZpQ2kX%2b2A5ij6QeyLZ5E3GuLw9BBCdjwddIA9eQ4%2fR6%2biY9E2u6OSccRwrknqrpJ0PjzJdgMkkU%2bjegYX7dYBfEiKwbeDnIsYHQ3CfcU%2bvD%2fDIQj9Efqc9fo4YZGkQxC3%2f3hmShhU6qOh9n2SW2NMIWLW2Q3j1S6bA7pcrXZb3hERUkPoCV51f0kuCw%2bpz2EDXHtHf%2fBik5OfVZSPXR65HHeIEJ4JbY1tdlmM2JwPWHrlquYr%2fk4fLik6JGfvMNWKGBHIZEo3LYsjUWbt5xO7rrvSN0IOlwJo8xRTY1B4KZ1WbxyHhBIriGEfGPDyjJWrUm8oYSESn1WKoka4glk8oGXqWzNI5dkU3Vwd3An3X" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></center></div>
